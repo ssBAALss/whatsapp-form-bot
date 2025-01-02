@@ -1,0 +1,15 @@
+{
+  "name": "whatsapp-form-bot",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp para formularios de Google",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "whatsapp-web.js": "1.17.1",
+    "qrcode": "^1.4.4",
+    "puppeteer": "^10.4.0"
+  }
+}
